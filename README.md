@@ -13,22 +13,23 @@ The images has beed stored on an IPFS, which provides a unique ID called CID for
 ### Project Setup
 
 - Clone the repository.
-- Run npm i to install all the packages
-- Create a .env file to store the private key as PRIVATE_KEY and the contract address as CONTRACT_ADDR
+- Run `npm i` to install all the packages
+- Create a .env file to store the private key as `PRIVATE_KEY` and the contract address as `CONTRACT_ADDR`
 
 
 ### Contract Deployment
 
- - Run npx hardhat compile to compile the solidity files.
+ - Run `npx hardhat compile` to compile the solidity files.
  - Deploy the contract using the following command 
    &nbsp;
    
-   npx hardhat run scripts/deploy.js --network sepolia.
+   `npx hardhat run scripts/deploy.js --network sepolia`.
  - Copy and paste the contract address in the .env file
- - Run npx hardhat run scripts/batchMint.js --network sepolia to mint all the NFTs in a single transaction.
+ - Run `npx hardhat run scripts/batchMint.js --network sepolia` to mint all the NFTs in a single transaction.
  - Approve and transfer the NFTs using the following command
     &nbsp;
 
-   npx hardhat run scripts/approveDeposit.js --network sepolia
+   `npx hardhat run scripts/approvedDeposit.js --network sepolia`
+   
 
 &nbsp;
