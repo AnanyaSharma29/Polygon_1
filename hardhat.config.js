@@ -6,11 +6,11 @@ module.exports = {
   networks: {
     hardhat: {}, // Explicitly define the hardhat network
     sepolia : {
-      url: 'https://polygon-zkevm-cardona.blockpi.network/v1/rpc/public',
+      url: 'https://ethereum-sepolia-rpc.publicnode.com/',
       accounts: [process.env.PRIVATE_KEY],
     },
     amoy : {
-      url: 'https://rpc-amoy.polygon.technology/',
+      url: 'https://ethereum-sepolia-rpc.publicnode.com/',
       accounts: [process.env.PRIVATE_KEY],
     },
   },
