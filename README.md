@@ -2,7 +2,7 @@
 
 This project is part of the Polygon Proof: Proof of Stake  by Metacrafters
 
-In this project, we had to create a ERC721 contract to mint and transfer NFTs sepolia testnet. We have used an AI Image generation tool to generate 5 images which will be used as NFTs.
+In this project, we had to create a ERC721 contract to mint and transfer NFTs sepolia testnet. I have used an AI Image generation tool to generate 5 images of mamals but one can add different images but should not be more than 5 which will be used as NFTs.
 &nbsp;
 
 
@@ -28,8 +28,9 @@ The images has beed stored on an IPFS, which provides a unique ID called CID for
  - Run `npx hardhat run scripts/batchMint.js --network sepolia` to mint all the NFTs in a single transaction.
  - Approve and transfer the NFTs using the following command
     &nbsp;
-
    `npx hardhat run scripts/approvedDeposit.js --network sepolia`
+ - after this project is successfully approved and desposited
+ - one can check by going on etherscan.io
    
 
 &nbsp;
