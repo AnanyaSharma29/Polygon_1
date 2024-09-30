@@ -29,6 +29,7 @@ The images has beed stored on an IPFS, which provides a unique ID called CID for
  - Approve and transfer the NFTs using the following command
     &nbsp;
    `npx hardhat run scripts/approvedDeposit.js --network sepolia`
+   
    `npx hardhat run scripts/approvedDeposit.js --network amoy`
  - after this project is successfully approved and desposited
  - one can check by going on etherscan.io
